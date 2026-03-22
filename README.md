@@ -116,6 +116,11 @@ class MyStrategy(CtaTemplate):
 - 策略文件名使用下划线命名（如 `my_strategy.py`）
 - UI 中显示的是策略类名，不是文件名
 - 修改策略代码后需要重启 VeighNa Trader 才能生效
+- **重要**：为了确保策略能够正确加载，请在项目目录下创建 `.vntrader` 文件夹，命令如下：
+  ```bash
+  mkdir -p .vntrader
+  ```
+  这将确保 VeighNa Trader 使用当前项目目录作为运行目录，从而能够正确找到 `strategies` 文件夹中的自定义策略。
 
 ## 内置技术指标
 

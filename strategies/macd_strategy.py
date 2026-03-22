@@ -1,5 +1,5 @@
 """
-双均线策略示例
+MACD策略示例
 """
 
 from vnpy_ctastrategy import (
@@ -14,34 +14,36 @@ from vnpy_ctastrategy import (
 )
 
 
-class DoubleMaStrategy(CtaTemplate):
+class MacdStrategy(CtaTemplate):
     """
-    双均线策略
-    快线突破慢线买入，快线跌破慢线卖出
+    MACD策略
+    DIF上穿DEA（金叉）买入，DIF下穿DEA（死叉）卖出
     """
     
     author = "MyQuant"
     
     # 策略参数
-    fast_window: int = 10      # 快线周期
-    slow_window: int = 20      # 慢线周期
+    fast_period: int = 12      # 快线周期
+    slow_period: int = 26      # 慢线周期
+    signal_period: int = 9     # 信号周期
     fixed_size: int = 1        # 交易手数
     
     parameters = [
-        "fast_window",
-        "slow_window",
+        "fast_period",
+        "slow_period",
+        "signal_period",
         "fixed_size"
     ]
     
     # 策略变量
-    fast_ma: float = 0
-    slow_ma: float = 0
-    ma_diff: float = 0
+    dif: float = 0
+    dea: float = 0
+    macd: float = 0
     
     variables = [
-        "fast_ma",
-        "slow_ma",
-        "ma_diff"
+        "dif",
+        "dea",
+        "macd"
     ]
     
     def __init__(self, cta_engine, strategy_name, vt_symbol, setting):
@@ -81,24 +83,37 @@ class DoubleMaStrategy(CtaTemplate):
         if not am.inited:
             return
         
-        # 计算均线
-        self.fast_ma = am.sma(self.fast_window)
-        self.slow_ma = am.sma(self.slow_window)
-        self.ma_diff = self.fast_ma - self.slow_ma
+        # 计算MACD指标
+        dif, dea, macd = am.macd(self.fast_period, self.slow_period, self.signal_period)
+        self.dif = dif
+        self.dea = dea
+        self.macd = macd
         
         # 获取当前持仓
         pos = self.pos
         
         # 交易逻辑
         if pos == 0:
-            if self.fast_ma > self.slow_ma:
-                # 金叉，买入
-                self.buy(bar.close_price + 5, self.fixed_size)
+            # 水上金叉：DIF > DEA 且 DIF > 0 且 DEA > 0
+            if dif > dea and dif > 0 and dea > 0:
+                # 水上金叉，买入
+                # 计算隔日涨停价（假设涨停幅度为10%）
+                limit_up_price = bar.close_price * 1.1
+                # 计算全仓股数（股票交易）
+                capital = self.cta_engine.capital
+                # 股票交易：可用资金除以涨停价，向下取整到100的整数倍
+                max_shares = int(capital / limit_up_price) // 100 * 100
+                if max_shares > 0:
+                    # 股票交易通常按100股为1手，这里直接使用股数
+                    self.buy(limit_up_price, max_shares)
         
         elif pos > 0:
-            if self.fast_ma < self.slow_ma:
+            # 死叉：DIF < DEA
+            if dif < dea:
                 # 死叉，卖出
-                self.sell(bar.close_price - 5, abs(pos))
+                # 计算隔日跌停价（假设跌停幅度为10%）
+                limit_down_price = bar.close_price * 0.9
+                self.sell(limit_down_price, abs(pos))
     
     def on_trade(self, trade: TradeData):
         """成交回调"""
@@ -106,7 +121,7 @@ class DoubleMaStrategy(CtaTemplate):
     
     def on_order(self, order: OrderData):
         """委托回调"""
-        pass
+        self.write_log(f"委托: {order.direction.value} {order.volume}手 @ {order.price}")
     
     def on_stop_order(self, stop_order: StopOrder):
         """停止单回调"""

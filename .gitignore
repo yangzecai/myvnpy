@@ -1,1 +1,3 @@
 venv/
+.vntrader/
+__pycache__/
