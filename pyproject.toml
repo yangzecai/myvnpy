@@ -12,6 +12,7 @@ dependencies = [
     "vnpy_mysql",
     "vnpy_ctabacktester",
     "pandas==2.3.3",
+    "vnpy_portfoliostrategy",
 ]
 
 [build-system]

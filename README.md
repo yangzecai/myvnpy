@@ -36,9 +36,6 @@ source venv/bin/activate
 ```bash
 # 使用现代方法从pyproject.toml安装依赖
 pip install .
-
-# 或者直接安装所需依赖
-pip install vnpy vnpy_ctastrategy vnpy_sqlite vnpy_mysql vnpy_ctabacktester pandas==2.3.3
 ```
 
 ### 4. 启动 VeighNa Trader
