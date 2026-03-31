@@ -1,0 +1,16 @@
+{
+  "total_return": -0.2613838855530329,
+  "annual_return": -0.16478926742170052,
+  "sharpe_ratio": -0.8056491583193142,
+  "max_drawdown": -0.37132661551513035,
+  "max_drawdown_duration": 424,
+  "volatility": 0.22825096821795365,
+  "total_trades": 3563,
+  "win_rate": 0.5283018867924528,
+  "profit_loss_ratio": 1.8,
+  "start_date": "2022-01-01",
+  "end_date": "2024-01-01",
+  "initial_capital": 1000000.0,
+  "final_capital": 738616.1144469671,
+  "trading_days": 424
+}

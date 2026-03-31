@@ -1,0 +1,29 @@
+{
+  "total_return": 0.19697150489974116,
+  "annual_return": 0.1127774164973343,
+  "sharpe_ratio": 0.7588837865890762,
+  "max_drawdown": -0.10279563947481846,
+  "max_drawdown_duration": 216,
+  "volatility": 0.10912697705089847,
+  "total_trades": 405,
+  "win_rate": 0.5023584905660378,
+  "trade_win_rate": 0.24444444444444444,
+  "total_cost": 67334.03328242744,
+  "start_date": "2022-01-01",
+  "end_date": "2024-01-01",
+  "initial_capital": 1000000.0,
+  "final_capital": 1196971.5048997412,
+  "trading_days": 424,
+  "params": {
+    "top_n": 10,
+    "rebalance_interval": 20,
+    "stop_loss": 0.05,
+    "take_profit": 0.1,
+    "min_score": 0.2,
+    "position_size": 0.08,
+    "max_positions": 10,
+    "commission_rate": 0.0003,
+    "tax_rate": 0.001,
+    "slippage": 0.001
+  }
+}

@@ -1,0 +1,779 @@
+{
+  "best_params": {
+    "top_n": 10,
+    "max_positions": 10,
+    "commission_rate": 0.0003,
+    "tax_rate": 0.001,
+    "slippage": 0.001,
+    "rebalance_interval": 20,
+    "stop_loss": 0.03,
+    "take_profit": 0.15,
+    "min_score": 0.25,
+    "position_size": 0.08
+  },
+  "best_result": {
+    "total_return": 0.22553336891091405,
+    "annual_return": 0.12848328524827046,
+    "sharpe_ratio": 0.9379709224428339,
+    "max_drawdown": -0.10321257403235927,
+    "volatility": 0.1024909295661516,
+    "total_trades": 196,
+    "win_rate": 0.4811320754716981,
+    "trade_win_rate": 0.4030612244897959,
+    "total_cost": 68088.75228931005,
+    "params": {
+      "top_n": 10,
+      "max_positions": 10,
+      "commission_rate": 0.0003,
+      "tax_rate": 0.001,
+      "slippage": 0.001,
+      "rebalance_interval": 20,
+      "stop_loss": 0.03,
+      "take_profit": 0.15,
+      "min_score": 0.25,
+      "position_size": 0.08
+    }
+  },
+  "all_results": [
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.08,
+        "min_score": 0.1,
+        "position_size": 0.06
+      },
+      {
+        "total_return": -0.029287591814245797,
+        "annual_return": -0.01751162410328755,
+        "sharpe_ratio": -0.5625542577009792,
+        "max_drawdown": -0.12130118665518334,
+        "volatility": 0.07917200789618727,
+        "total_trades": 395,
+        "win_rate": 0.4811320754716981,
+        "trade_win_rate": 0.4177215189873418,
+        "total_cost": 87094.51496957181,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.08,
+          "min_score": 0.1,
+          "position_size": 0.06
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.08,
+        "min_score": 0.1,
+        "position_size": 0.08
+      },
+      {
+        "total_return": -0.04260916546287784,
+        "annual_return": -0.025547663685571376,
+        "sharpe_ratio": -0.47689551879843756,
+        "max_drawdown": -0.15930421480319215,
+        "volatility": 0.10551945972756066,
+        "total_trades": 395,
+        "win_rate": 0.4811320754716981,
+        "trade_win_rate": 0.4177215189873418,
+        "total_cost": 116364.48494403868,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.08,
+          "min_score": 0.1,
+          "position_size": 0.08
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.08,
+        "min_score": 0.1,
+        "position_size": 0.1
+      },
+      {
+        "total_return": -0.0641265184295841,
+        "annual_return": -0.0386241535431725,
+        "sharpe_ratio": -0.5051749226488672,
+        "max_drawdown": -0.19400289601866808,
+        "volatility": 0.1225205972380052,
+        "total_trades": 369,
+        "win_rate": 0.47641509433962265,
+        "trade_win_rate": 0.41192411924119243,
+        "total_cost": 134905.47370973404,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.08,
+          "min_score": 0.1,
+          "position_size": 0.1
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.08,
+        "min_score": 0.15,
+        "position_size": 0.06
+      },
+      {
+        "total_return": -0.029287591814245797,
+        "annual_return": -0.01751162410328755,
+        "sharpe_ratio": -0.5625542577009792,
+        "max_drawdown": -0.12130118665518334,
+        "volatility": 0.07917200789618727,
+        "total_trades": 395,
+        "win_rate": 0.4811320754716981,
+        "trade_win_rate": 0.4177215189873418,
+        "total_cost": 87094.51496957181,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.08,
+          "min_score": 0.15,
+          "position_size": 0.06
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.08,
+        "min_score": 0.15,
+        "position_size": 0.08
+      },
+      {
+        "total_return": -0.04260916546287784,
+        "annual_return": -0.025547663685571376,
+        "sharpe_ratio": -0.47689551879843756,
+        "max_drawdown": -0.15930421480319215,
+        "volatility": 0.10551945972756066,
+        "total_trades": 395,
+        "win_rate": 0.4811320754716981,
+        "trade_win_rate": 0.4177215189873418,
+        "total_cost": 116364.48494403868,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.08,
+          "min_score": 0.15,
+          "position_size": 0.08
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.08,
+        "min_score": 0.15,
+        "position_size": 0.1
+      },
+      {
+        "total_return": -0.0641265184295841,
+        "annual_return": -0.0386241535431725,
+        "sharpe_ratio": -0.5051749226488672,
+        "max_drawdown": -0.19400289601866808,
+        "volatility": 0.1225205972380052,
+        "total_trades": 369,
+        "win_rate": 0.47641509433962265,
+        "trade_win_rate": 0.41192411924119243,
+        "total_cost": 134905.47370973404,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.08,
+          "min_score": 0.15,
+          "position_size": 0.1
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.08,
+        "min_score": 0.2,
+        "position_size": 0.06
+      },
+      {
+        "total_return": -0.0334044869082442,
+        "annual_return": -0.019990275770597532,
+        "sharpe_ratio": -0.5989033139883241,
+        "max_drawdown": -0.1212965972866059,
+        "volatility": 0.0786522088382099,
+        "total_trades": 391,
+        "win_rate": 0.47877358490566035,
+        "trade_win_rate": 0.41687979539641945,
+        "total_cost": 85900.149806005,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.08,
+          "min_score": 0.2,
+          "position_size": 0.06
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.08,
+        "min_score": 0.2,
+        "position_size": 0.08
+      },
+      {
+        "total_return": -0.04799663613315416,
+        "annual_return": -0.028810442687792093,
+        "sharpe_ratio": -0.5127175397264215,
+        "max_drawdown": -0.15930427672641603,
+        "volatility": 0.10482829204395651,
+        "total_trades": 391,
+        "win_rate": 0.47877358490566035,
+        "trade_win_rate": 0.41687979539641945,
+        "total_cost": 114633.48772080764,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.08,
+          "min_score": 0.2,
+          "position_size": 0.08
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.08,
+        "min_score": 0.2,
+        "position_size": 0.1
+      },
+      {
+        "total_return": -0.06592824786582274,
+        "annual_return": -0.039724602819536825,
+        "sharpe_ratio": -0.5171571177589853,
+        "max_drawdown": -0.19400729793495056,
+        "volatility": 0.12201450602956411,
+        "total_trades": 366,
+        "win_rate": 0.47641509433962265,
+        "trade_win_rate": 0.412568306010929,
+        "total_cost": 133618.58818083556,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.08,
+          "min_score": 0.2,
+          "position_size": 0.1
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.08,
+        "min_score": 0.25,
+        "position_size": 0.06
+      },
+      {
+        "total_return": -0.032985128460021926,
+        "annual_return": -0.01973759774193684,
+        "sharpe_ratio": -0.6002944382965504,
+        "max_drawdown": -0.12129786460331347,
+        "volatility": 0.07811136946751535,
+        "total_trades": 387,
+        "win_rate": 0.47877358490566035,
+        "trade_win_rate": 0.4186046511627907,
+        "total_cost": 85072.22162102396,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.08,
+          "min_score": 0.25,
+          "position_size": 0.06
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.08,
+        "min_score": 0.25,
+        "position_size": 0.08
+      },
+      {
+        "total_return": -0.04744443761277164,
+        "annual_return": -0.028475674362043346,
+        "sharpe_ratio": -0.5137129380369747,
+        "max_drawdown": -0.15929981810147714,
+        "volatility": 0.10410267304217424,
+        "total_trades": 387,
+        "win_rate": 0.47877358490566035,
+        "trade_win_rate": 0.4186046511627907,
+        "total_cost": 113544.07760376084,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.08,
+          "min_score": 0.25,
+          "position_size": 0.08
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.08,
+        "min_score": 0.25,
+        "position_size": 0.1
+      },
+      {
+        "total_return": -0.06894275330256938,
+        "annual_return": -0.04156771148474947,
+        "sharpe_ratio": -0.5362515192774402,
+        "max_drawdown": -0.19400749749827634,
+        "volatility": 0.12139274676614369,
+        "total_trades": 363,
+        "win_rate": 0.47641509433962265,
+        "trade_win_rate": 0.4132231404958678,
+        "total_cost": 132107.43630146483,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.08,
+          "min_score": 0.25,
+          "position_size": 0.1
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.1,
+        "min_score": 0.1,
+        "position_size": 0.06
+      },
+      {
+        "total_return": -0.01188676078145369,
+        "annual_return": -0.007081901593048334,
+        "sharpe_ratio": -0.41448980957811077,
+        "max_drawdown": -0.1294090073807402,
+        "volatility": 0.08152449882969123,
+        "total_trades": 394,
+        "win_rate": 0.47641509433962265,
+        "trade_win_rate": 0.4137055837563452,
+        "total_cost": 88357.21511715325,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.1,
+          "min_score": 0.1,
+          "position_size": 0.06
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.1,
+        "min_score": 0.1,
+        "position_size": 0.08
+      },
+      {
+        "total_return": -0.019786301964419894,
+        "annual_return": -0.011807421123632866,
+        "sharpe_ratio": -0.33136809965467884,
+        "max_drawdown": -0.1696309471421184,
+        "volatility": 0.10861318151593893,
+        "total_trades": 394,
+        "win_rate": 0.47641509433962265,
+        "trade_win_rate": 0.4137055837563452,
+        "total_cost": 118671.07061215205,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.1,
+          "min_score": 0.1,
+          "position_size": 0.08
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.1,
+        "min_score": 0.1,
+        "position_size": 0.1
+      },
+      {
+        "total_return": -0.042615440196809594,
+        "annual_return": -0.02555145947325521,
+        "sharpe_ratio": -0.37967285734734885,
+        "max_drawdown": -0.2093609120251815,
+        "volatility": 0.12623827764698398,
+        "total_trades": 367,
+        "win_rate": 0.4693396226415094,
+        "trade_win_rate": 0.40599455040871935,
+        "total_cost": 137529.28344513575,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.1,
+          "min_score": 0.1,
+          "position_size": 0.1
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.1,
+        "min_score": 0.15,
+        "position_size": 0.06
+      },
+      {
+        "total_return": -0.01188676078145369,
+        "annual_return": -0.007081901593048334,
+        "sharpe_ratio": -0.41448980957811077,
+        "max_drawdown": -0.1294090073807402,
+        "volatility": 0.08152449882969123,
+        "total_trades": 394,
+        "win_rate": 0.47641509433962265,
+        "trade_win_rate": 0.4137055837563452,
+        "total_cost": 88357.21511715325,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.1,
+          "min_score": 0.15,
+          "position_size": 0.06
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.1,
+        "min_score": 0.15,
+        "position_size": 0.08
+      },
+      {
+        "total_return": -0.019786301964419894,
+        "annual_return": -0.011807421123632866,
+        "sharpe_ratio": -0.33136809965467884,
+        "max_drawdown": -0.1696309471421184,
+        "volatility": 0.10861318151593893,
+        "total_trades": 394,
+        "win_rate": 0.47641509433962265,
+        "trade_win_rate": 0.4137055837563452,
+        "total_cost": 118671.07061215205,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.1,
+          "min_score": 0.15,
+          "position_size": 0.08
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.1,
+        "min_score": 0.15,
+        "position_size": 0.1
+      },
+      {
+        "total_return": -0.042615440196809594,
+        "annual_return": -0.02555145947325521,
+        "sharpe_ratio": -0.37967285734734885,
+        "max_drawdown": -0.2093609120251815,
+        "volatility": 0.12623827764698398,
+        "total_trades": 367,
+        "win_rate": 0.4693396226415094,
+        "trade_win_rate": 0.40599455040871935,
+        "total_cost": 137529.28344513575,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.1,
+          "min_score": 0.15,
+          "position_size": 0.1
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.1,
+        "min_score": 0.2,
+        "position_size": 0.06
+      },
+      {
+        "total_return": -0.01732267024659179,
+        "annual_return": -0.010332020038065548,
+        "sharpe_ratio": -0.4581496932719412,
+        "max_drawdown": -0.12941069517633375,
+        "volatility": 0.0810033733454544,
+        "total_trades": 390,
+        "win_rate": 0.47641509433962265,
+        "trade_win_rate": 0.4128205128205128,
+        "total_cost": 87053.61297454001,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.1,
+          "min_score": 0.2,
+          "position_size": 0.06
+        }
+      }
+    ],
+    [
+      {
+        "top_n": 10,
+        "max_positions": 10,
+        "commission_rate": 0.0003,
+        "tax_rate": 0.001,
+        "slippage": 0.001,
+        "rebalance_interval": 10,
+        "stop_loss": 0.03,
+        "take_profit": 0.1,
+        "min_score": 0.2,
+        "position_size": 0.08
+      },
+      {
+        "total_return": -0.026924415630541508,
+        "annual_return": -0.016090757297898217,
+        "sharpe_ratio": -0.3744301836947413,
+        "max_drawdown": -0.16962930604727458,
+        "volatility": 0.1079210722427523,
+        "total_trades": 390,
+        "win_rate": 0.47641509433962265,
+        "trade_win_rate": 0.4128205128205128,
+        "total_cost": 116743.10490947224,
+        "params": {
+          "top_n": 10,
+          "max_positions": 10,
+          "commission_rate": 0.0003,
+          "tax_rate": 0.001,
+          "slippage": 0.001,
+          "rebalance_interval": 10,
+          "stop_loss": 0.03,
+          "take_profit": 0.1,
+          "min_score": 0.2,
+          "position_size": 0.08
+        }
+      }
+    ]
+  ]
+}

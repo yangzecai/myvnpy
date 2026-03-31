@@ -1,0 +1,50 @@
+{
+  "frequency_analysis": {
+    "interval_1": {
+      "total_return": -0.5220542148204274,
+      "total_cost": 114168.4725377531,
+      "trade_count": 1778,
+      "rebalance_interval": 1,
+      "cost_ratio": 0.1141684725377531
+    },
+    "interval_5": {
+      "total_return": -0.46192846236924034,
+      "total_cost": 59947.00039502473,
+      "trade_count": 786,
+      "rebalance_interval": 5,
+      "cost_ratio": 0.05994700039502473
+    },
+    "interval_10": {
+      "total_return": -0.4689997569788885,
+      "total_cost": 51427.49334048953,
+      "trade_count": 568,
+      "rebalance_interval": 10,
+      "cost_ratio": 0.05142749334048953
+    },
+    "interval_20": {
+      "total_return": -0.4515410123268877,
+      "total_cost": 40616.987180675555,
+      "trade_count": 370,
+      "rebalance_interval": 20,
+      "cost_ratio": 0.04061698718067555
+    }
+  },
+  "cost_impact_analysis": {
+    "no_cost": {
+      "total_return": -0.42641703720747914,
+      "total_cost": 0.0,
+      "trade_count": 1778,
+      "rebalance_interval": 1,
+      "cost_ratio": 0.0
+    },
+    "with_cost": {
+      "total_return": -0.5220542148204274,
+      "total_cost": 114168.4725377531,
+      "trade_count": 1778,
+      "rebalance_interval": 1,
+      "cost_ratio": 0.1141684725377531
+    },
+    "cost_impact": 0.09563717761294821
+  },
+  "stock_count": 100
+}
